@@ -1,4 +1,12 @@
 <?php
 extract($_POST);
-echo $langue;
+if ($langue=="Francais"){
+  echo "Bonjour";
+}
+if ($langue=="Anglais"){
+  echo "Hello";
+}
+if ($langue=="Espagnol"){
+  echo "Hola";
+}
 ?>
